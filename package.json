@@ -1,0 +1,19 @@
+{
+  "name": "test-find-cypress-specs-as-action",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/hammzj/test-find-cypress-specs-as-action.git",
+  "author": "Zachary Hamm <zjhamm304@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts":{
+    "build": "ncc build ./index.js -o dist --license licenses.txt --minify"
+  },
+  "dependencies": {
+    "find-cypress-specs": "^1.47.9"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.38.3",
+    "cypress": "^14.1.0"
+  }
+}
