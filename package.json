@@ -5,7 +5,7 @@
   "repository": "https://github.com/hammzj/test-find-cypress-specs-as-action.git",
   "author": "Zachary Hamm <zjhamm304@gmail.com>",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "scripts":{
     "build": "ncc build ./index.js -o dist --license licenses.txt --minify"
   },
